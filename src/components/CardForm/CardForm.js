@@ -7,7 +7,7 @@ import { addCard } from '../../redux/store';
 
 const CardForm = props => {
     const [title, setTitle] = useState('');
-    
+
     const dispatch = useDispatch();
 
     const handleSubmit = e => {
