@@ -11,3 +11,13 @@
     justify-content: space-between;
     font-weight: bold;
 }
+
+.cardBtn {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.active {
+    color: $color-warning;
+}
